@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: black;
+    border-bottom: 2px solid gold;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+
+.menu {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+h1 {
+    color: gold;
+}
+
+.verification-box {
+    background: black;
+    border: 2px solid gold;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+button {
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #d4af37;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: black;
+    border-top: 2px solid gold;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
